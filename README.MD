@@ -33,5 +33,5 @@ Dostat se z lesa, který je plný vojáků a nástrah.
 -------------------------------------------
 1. Pohyb .................. nahoru / doleva / dolu / doprava (WASD)
 2. Itemy k úniku .......... štípačky na miny, Bren, munice, bomba
-===========================================
+
 
