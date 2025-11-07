@@ -45,3 +45,4 @@ vector<Area> mapa = {
     {"Tábor nepřátel"},
     {"Okraj lesa (fake)"}
 };
+
