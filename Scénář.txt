@@ -1,5 +1,6 @@
 HRA
 
+ SCÉNA 1 
 1 Václav: „Dušane, mám tu nabídku z FC Drakonia. Tříletá smlouva, 85 tisíc měsíčně a prémie za góly. Co myslíš?“
 (1) „Podepiš to, chci hrát!“ (2) „Zkus vyjednat víc.“ (3) „Není to málo?“
 
