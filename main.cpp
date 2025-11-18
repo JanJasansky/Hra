@@ -50,9 +50,8 @@ int ctiVolbu(int minimum, int maximum) {
 void scena1() {
     int volba;
 
-    line();
+    cout << endl;
     cout << "SCENA 1 - Jednani s agentem" << endl;
-    line();
 
     // 1
     line();
@@ -77,14 +76,28 @@ void scena1() {
     cout << "2) \"Snad to zvladnu.\"\n";
     cout << "3) \"Nevim, nikdy jsem to nezazil.\"\n";
     volba = ctiVolbu(1, 3);
+    if (volba == 1) {
+        cout << "Vaclav: \"Tak to chci slyset.\"\n";
+    } else if (volba == 2) {
+        cout << "Vaclav: \"Strach je normalni, hlavne ho prekonej.\"\n";
+    } else {
+        cout << "Vaclav: \"Tak to bude tvoje prvni velka zkouska.\"\n";
+    }
 
     // 3
     line();
     cout << "3) Vaclav: \"Jake cislo chces na dres?\"\n";
     cout << "1) \"Desitku. Jako kapitan.\"\n";
     cout << "2) \"Cokoliv, jsem tu novy.\"\n";
-    cout << "3) \"Sedmicku. Ta mi prinasi stesti.\"\n";
+    cout << "3) \"Sedmicku, ta mi prinasi stesti.\"\n";
     volba = ctiVolbu(1, 3);
+    if (volba == 1) {
+        cout << "Vaclav: \"Desitka? Odvazny vyber.\"\n";
+    } else if (volba == 2) {
+        cout << "Vaclav: \"Skromnost se ceni.\"\n";
+    } else {
+        cout << "Vaclav: \"Sedmicka ti muze sednout.\"\n";
+    }
 
     // 4
     line();
@@ -93,41 +106,77 @@ void scena1() {
     cout << "2) \"Hlavne at hraju.\"\n";
     cout << "3) \"Nech to byt, neresim prachy.\"\n";
     volba = ctiVolbu(1, 3);
+    if (volba == 1) {
+        cout << "Vaclav: \"Tak jo, bonusy tam dam.\"\n";
+    } else if (volba == 2) {
+        cout << "Vaclav: \"To rad slysim, minuta je vic nez penize.\"\n";
+    } else {
+        cout << "Vaclav: \"Takovy pristup dneska nema skoro nikdo.\"\n";
+    }
 
     // 5
     line();
-    cout << "5) Vaclav: \"Mimochodem, novinari uz o tobe pisou. Mam to komentovat?\"\n";
+    cout << "5) Vaclav: \"Novinari uz o tobe pisou. Mam to komentovat?\"\n";
     cout << "1) \"Jo, ukaz jim, ze prichazi hvezda.\"\n";
     cout << "2) \"Nech to byt, chci klid.\"\n";
     cout << "3) \"Rekni jim, ze jdu makat.\"\n";
     volba = ctiVolbu(1, 3);
+    if (volba == 1) {
+        cout << "Vaclav: \"Dobře, udelam z tebe velke jmeno.\"\n";
+    } else if (volba == 2) {
+        cout << "Vaclav: \"Jasne, drzime se mimo svetla reflektoru.\"\n";
+    } else {
+        cout << "Vaclav: \"Skromnost, ale ambice. To se libi.\"\n";
+    }
 
     // 6
     line();
-    cout << "6) Vaclav: \"Zitra mas podpis v klubu. Bude tam trener Honza. Bacha, nesnasi opozdilce.\"\n";
-    cout << "1) \"Neboj, budu tam prvni.\"\n";
-    cout << "2) \"V pohode, to zvladnu.\"\n";
+    cout << "6) Vaclav: \"Zitra mas podpis v klubu. Trener Honza nesnasi opozdilce.\"\n";
+    cout << "1) \"Budu tam prvni.\"\n";
+    cout << "2) \"V pohode, stihnu to.\"\n";
     cout << "3) \"A co, jeden den se nic nestane.\"\n";
     volba = ctiVolbu(1, 3);
+    if (volba == 1) {
+        cout << "Vaclav: \"Vyborne, prvni dojem je klicovy.\"\n";
+    } else if (volba == 2) {
+        cout << "Vaclav: \"Hlavne to nezasp.\"\n";
+    } else {
+        cout << "Vaclav: \"Takovy pristup se trenerovi libit nebude.\"\n";
+    }
 
     // 7
     line();
-    cout << "7) Vaclav: \"Na zaver – vis, ze ti muze zmenit zivot kazda volba, ze?\"\n";
-    cout << "1) \"Jasne, proto si davam pozor.\"\n";
+    cout << "7) Vaclav: \"Kazda volba muze zmenit tvuj zivot. Uvedomujes si to?\"\n";
+    cout << "1) \"Jasne, davam si pozor.\"\n";
     cout << "2) \"Uvidime, jak to dopadne.\"\n";
-    cout << "3) \"Zivot je hra, ne kalkulacka.\"\n";
+    cout << "3) \"Zivot je hra.\"\n";
     volba = ctiVolbu(1, 3);
+    if (volba == 1) {
+        cout << "Vaclav: \"Rozumne.\"\n";
+    } else if (volba == 2) {
+        cout << "Vaclav: \"Tak doufej, ze mas stesti.\"\n";
+    } else {
+        cout << "Vaclav: \"Tak hraj chytre.\"\n";
+    }
 
     // 8
     line();
-    cout << "8) Vaclav: \"Takze potvrzuju prestup?\"\n";
-    cout << "1) \"Ano, podepisuj!\"\n";
-    cout << "2) \"Pockej, chci to promyslet.\"\n";
+    cout << "8) Vaclav: \"Takze... potvrzuju prestup?\"\n";
+    cout << "1) \"Ano, podepisuj.\"\n";
+    cout << "2) \"Pockej, premyslim.\"\n";
     cout << "3) \"Podepis, ale pod podminkami.\"\n";
     volba = ctiVolbu(1, 3);
+    if (volba == 1) {
+        cout << "Vaclav: \"Hotovo. Od zitra jsi hrac Drakonie.\"\n";
+    } else if (volba == 2) {
+        cout << "Vaclav: \"Ok, necham ti cas.\"\n";
+    } else {
+        cout << "Vaclav: \"Zkusim vyjednat co pujde.\"\n";
+    }
 
     cout << endl << "[Konec sceny 1]" << endl;
 }
+
 
 // SCENA 2 – PODPIS V KLUBU 
 void scena2() {
